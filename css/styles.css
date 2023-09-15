@@ -202,6 +202,7 @@ margin-right: 1045px; */
 
 .hero-section {
   background-color: var(--color-navyblue);
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -216,8 +217,6 @@ margin-right: 1045px; */
   line-height: 1.07;
   letter-spacing: 1.12px;
 
-  padding-top: 188px;
-
   max-width: 496px;
   margin: 0 auto;
 }
@@ -226,7 +225,7 @@ margin-right: 1045px; */
   padding-right: 636px;
   padding-left: 635px;
   padding-top: 48px;
-  padding-bottom: 188px;
+  
 }
 
 .order-button {
@@ -243,7 +242,13 @@ margin-right: 1045px; */
 
   text-align: center;
 
-  display: inline-flex;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+
+  cursor: pointer;
+
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
