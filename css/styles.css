@@ -443,6 +443,7 @@ margin-right: 0;
 
 .footer {
   background-color: var(--color-navyblue);
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -467,7 +468,7 @@ margin-right: 0;
 
 .footer-logo:focus {
   color: var(--color-iris);
-}
+} 
 
 .footer-text {
   color: var(--color-cloud);
