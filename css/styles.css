@@ -42,6 +42,7 @@ ol {
 img {
   display: block;
   max-width: 100%;
+  object-fit: cover;
 }
 
 body {
@@ -193,7 +194,7 @@ margin-right: 1045px; */
 
 .container {
     max-width: 1440px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -264,6 +265,10 @@ margin-right: 1045px; */
   cursor: pointer;
 }
 
+.benefits {
+    padding: 120px 0;
+}
+
 .benefit-title {
   color: var(--color-navyblue);
   font-family: Roboto;
@@ -274,12 +279,19 @@ margin-right: 1045px; */
   letter-spacing: 0.02em;
 }
 
-.benefits {
+.benefits-card {
   display: flex;
-  width: 264px;
+  /* flex-wrap: wrap; */
+  gap: 24px;
+
+  /* width: 264px;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
+  align-items: flex-start; */
+
+}
+
+.benefits-list {
+    width: calc((100% - 72px) / 3);
 }
 
 .benefit-text {
