@@ -212,9 +212,9 @@ margin-right: 1045px; */
 
 
 .container {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0;
+  width:1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 
@@ -264,11 +264,10 @@ margin-right: 1045px; */
 
   cursor: pointer;
 
-  margin-right: 636px;
-  margin-left: 635px;
-  margin-top: 48px;
+  margin: 48px auto 0;
+  
 
-  padding: 16px 32px;
+
   align-items: flex-start;
   gap: 10px;
 
