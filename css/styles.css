@@ -36,8 +36,16 @@ ol {
 }
 
 .visually-hidden {
-  overflow: hidden;
-  display: none;
+position: absolute; 
+width: 1px; 
+height: 1px; 
+margin: -1px; 
+border: 0; 
+padding: 0; 
+white-space: nowrap; 
+clip-path: inset(100%); 
+clip: rect(0 0 0 0); 
+overflow: hidden;
 }
 
 img {
@@ -90,7 +98,7 @@ ul {
 }
 
 .address {
-    padding: 24px 0;
+    margin-left: auto;
 }
 
 .header-logo:hover {
@@ -114,6 +122,8 @@ ul {
 }
 
 .header-link {
+  padding: 24px 0;
+  display: block;
   text-decoration: none;
   font-style: normal;
   color: var(--color-navyblue);
@@ -151,6 +161,8 @@ margin-right: 1045px; */
 }
 
 .contacts-link {
+  padding: 24px 0;
+  display: block;
   text-decoration: none;
   font-style: normal;
   color: var(--color-slate);
@@ -179,8 +191,7 @@ margin-right: 1045px; */
 
 .header .container {
     display: flex;
-    gap: 40px;
-    padding: 24px 0;
+    
     
 }
 
@@ -188,17 +199,15 @@ margin-right: 1045px; */
   background-color: var(--color-white);
   display: flex;
   align-items: center;
-  gap: 40px;
 
-  padding: 24px 0;
-
-  /* flex-shrink: 0; */
-
-  /* width: 1440px; */
 }
 
-
-
+.navigation-container-list {
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
 
 
 
