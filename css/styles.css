@@ -227,12 +227,8 @@ margin-right: 1045px; */
   margin: 0 auto;
 }
 
-.button-box {
-  padding-right: 636px;
-  padding-left: 635px;
-  padding-top: 48px;
   
-}
+  
 
 .order-button {
   color: var(--color-white);
@@ -254,6 +250,10 @@ margin-right: 1045px; */
   border: none;
 
   cursor: pointer;
+
+  margin-right: 636px;
+  margin-left: 635px;
+  margin-top: 48px;
 
   padding: 16px 32px;
   align-items: flex-start;
