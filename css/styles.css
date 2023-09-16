@@ -36,6 +36,7 @@ ol {
 }
 
 .visually-hidden {
+  overflow: hidden;
   display: none;
 }
 
@@ -87,9 +88,9 @@ ul {
   margin-right: 76px;
 }
 
-/* .address {
-    margin-left: 332px;
-} */
+.address {
+    padding: 24px 0;
+}
 
 .header-logo:hover {
   color: var(--color-ocean);
@@ -442,6 +443,7 @@ margin-right: 1045px; */
   letter-spacing: 0.02em;
 
   padding-top: 32px;
+  margin-bottom: 8px;
 }
 
 .project-type {
