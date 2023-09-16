@@ -99,6 +99,7 @@ ul {
 
 .address {
     margin-left: auto;
+    
 }
 
 .header-logo:hover {
@@ -173,13 +174,10 @@ margin-right: 1045px; */
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+
+ 
 }
 
-.contacts-link {
-  /* float: right;
-  display: flex;
-  margin-left: 40px; */
-}
 
 .contacts-link:focus {
   color: var(--color-ocean);
@@ -199,7 +197,7 @@ margin-right: 1045px; */
   background-color: var(--color-white);
   display: flex;
   align-items: center;
-
+  gap: 40px;
 }
 
 .navigation-container-list {
