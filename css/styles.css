@@ -72,14 +72,10 @@ ul {
 
 .header {
     border-bottom: 1px solid var(--color-cornflower);
-    padding: 0 15px;
+    
     
 }
 
-.header .container {
-    width: 1158px;
-    padding: 0 15px;
-}
 
 .header-logo {
   text-decoration: none;
@@ -93,7 +89,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.54px;
 
-  display: flex;
+  
   margin-right: 76px;
 }
 
@@ -189,7 +185,7 @@ margin-right: 1045px; */
 
 .header .container {
     display: flex;
-    
+    align-items: center;
     
 }
 
@@ -197,7 +193,15 @@ margin-right: 1045px; */
   background-color: var(--color-white);
   display: flex;
   align-items: center;
+  
+}
+
+.address-container {
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
   gap: 40px;
+  
 }
 
 .navigation-container-list {
@@ -379,7 +383,7 @@ margin-right: 1045px; */
 
 .persondetails {
     padding: 32px 0;
-    margin-bottom: 8px
+    
 }
 
 .person-name {
@@ -426,8 +430,7 @@ margin-right: 1045px; */
 
 .portfoliocards {
   background-color: var(--color-white);
-  border: 1px solid;
-  border-color: var(--color-cornflower);
+  
   text-decoration: none;
 
   display: inline-block;
